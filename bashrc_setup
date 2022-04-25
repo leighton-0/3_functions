@@ -1,0 +1,10 @@
+
+#############################################################
+##    TO BE ADDED TO .bashrc FILE                          ##
+#############################################################
+
+
+
+export HISTCONTROL=erasedups # don't store duplicate lines
+export HISTSIZE=100000 #remember 100k unique lines
+shopt -s histappend
