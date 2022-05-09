@@ -13,8 +13,7 @@
 
     alias srr='. .bashrc && . .bash_aliases'
     alias jor='gedit /root/Documents/journal'
-    alias snms='service network-manager start'
-    alias snms1='systemctl restart NetworkManager'
+
     alias lmacc1='/usr/local/bin/./lmacc1.sh'
     alias lmacc0='/usr/local/bin/./lmacc0.sh'
     #alias tor='sudo -u kali -H torbrowser-launcher'
@@ -102,3 +101,18 @@ alias fgrep='fgrep --color=auto'
     alias flighton='sudo rfkill block all'
     alias flightoff='sudo rfkill unblock all'
     alias snr='sudo service network-manager restart'
+
+
+# Start & Stop Services
+    alias snms='service network-manager start'
+    alias snms1='systemctl restart NetworkManager'
+
+    sudo service <ServiceName> status
+    sudo service <ServiceName> stop
+    sudo service <ServiceName> start
+    sudo service <ServiceName> restart
+
+    sudo systemctl status <ServiceName>
+  	sudo systemctl stop <ServiceName>
+    sudo systemctl start <ServiceName>
+    sudo systemctl restart <ServiceName>
