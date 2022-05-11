@@ -5,7 +5,7 @@
 
 # Miscelanious
 
-    
+
     alias sdn='shutdown now'
     alias v1='grep VERSION /etc/os-release'
     alias v2='uname -a'
@@ -13,7 +13,7 @@
     alias ba='gedit .bash_aliases'
     alias bc='gedit .bashrc'
 
-    alias t=echo "testing"
+    alias t='echo testing'
 
     alias srr='. .bashrc && . .bash_aliases'
     alias jor='gedit /root/Documents/journal'
