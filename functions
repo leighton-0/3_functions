@@ -4,6 +4,27 @@
 #################################################################
 
 
+#script to retrieve the public ip of your internet connection
+#Author: Luca Radaelli <lradaelli85@users.noreply.github.com>
+#TO TO - needs taking out as a  function
+
+DIG=`which dig`
+   if [ $? -eq 0 ]
+    then
+     HOST="myip.opendns.com"
+     DNS="resolver1.opendns.com"
+     OPTIONS="+short +time=3 +tries=1"
+     RES=`$DIG $OPTIONS $HOST @$DNS 2> /dev/null`
+     if [ -z $RES ]
+       then
+        echo "NoInternet"
+       else
+        echo "THE SEVER IP IS $RES"
+     fi
+   fi
+
+
+
 function myip()
 {
     extIp=$(dig +short myip.opendns.com @resolver1.opendns.com)
