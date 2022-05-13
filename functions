@@ -1,8 +1,13 @@
 
+#!bin/bash
+
+
 #################################################################
 ##                      MY FUNCTIONS                           ##
 #################################################################
 
+# Add this to the .bashrc file
+#      . ~/zz_functions
 
 #script to retrieve the public ip of your internet connection
 #Author: Luca Radaelli <lradaelli85@users.noreply.github.com>
@@ -25,7 +30,7 @@ DIG=`which dig`
 
 
 
-function myip()
+myip()
 {
     extIp=$(dig +short myip.opendns.com @resolver1.opendns.com)
 
