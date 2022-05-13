@@ -8,28 +8,7 @@
 #      . ~/zz_functions/functions
 
 
-function showDATE() {date;}
-
-function test()
+function test1()
 {
-echo "hello world"
-}
-
-function mybanner()
-{
-  echo "+------------------------------------------+"
-  printf "| %-40s |\n" "`date`"
-  echo "|                                          |"
-  printf "|`tput bold` %-40s `tput sgr0`|\n" "$@"
-  echo "+------------------------------------------+"
-}
-
-function myip() {
-        curl http://icanhazip.com
-
-        ip addr | grep inet$IP | \
-        cut -d"/" -f 1 | \
-        grep -v 127\.0 | \
-        grep -v \:\:1 | \
-        awk '{$1=$1};1'
+echo "hello world1"
 }
