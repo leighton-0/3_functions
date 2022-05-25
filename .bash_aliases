@@ -21,6 +21,9 @@
     alias lmacc1='/usr/local/bin/./lmacc1.sh'
     alias lmacc0='/usr/local/bin/./lmacc0.sh'
     #alias tor='sudo -u kali -H torbrowser-launcher'
+    
+# Reconftw
+    alias rec='./reconftw.sh -d ecosymbiosis.com -f
 
 # VPN
     alias vpns='nordvpn status'
