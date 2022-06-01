@@ -26,9 +26,9 @@
     alias rec='./reconftw.sh -d ecosymbiosis.com -f
     
 #nDigital Ocean
-    alias do1='ssh root@159.65.55.161'
-    alias do2='ssh root@134.122.111.227'
-    alias do3='ssh root@188.166.116.84'
+    alias do1='ssh root@xxx.65.55.161'
+    alias do2='ssh root@xxx.122.111.227'
+    alias do3='ssh root@xxx.166.116.84'
 
 # VPN
     alias vpns='nordvpn status'
