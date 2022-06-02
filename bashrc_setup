@@ -11,6 +11,9 @@
 export EDITOR="nano"
 export PATH=/home/user/bin:$PATH
 
+export PATH="$PATH:.bash_aliases"
+
+
 
 
 
