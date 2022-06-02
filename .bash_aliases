@@ -5,13 +5,14 @@
 
 # Miscelanious
 
-
     alias sdn='shutdown now'
     alias v1='grep VERSION /etc/os-release'
     alias v2='uname -a'
-    #alias upd='apt update && apt -y full-upgrade'
+    alias upd='sudo apt update && sudo apt -y full-upgrade'
     alias ba='gedit .bash_aliases'
     alias bc='gedit .bashrc'
+    alias rep='gedit ~/zz_reports'
+    alias fun='gedit ~/zz_functions/functions'
 
     alias t='echo testing'
 
