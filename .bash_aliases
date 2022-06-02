@@ -32,8 +32,9 @@
 
 # VPN
     alias vpns='nordvpn status'
+    alias vpnset='nordvpn settings'
     alias vpndc='nordvpn connect Double_VPN'
-    alias vpno=''
+    alias vpno='s obfuscate on'
     alias vpnuk='nordvpn c 2195'
     alias ethers='cat >> /.config/wireshark/ethers
 
