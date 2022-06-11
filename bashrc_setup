@@ -12,7 +12,8 @@ export EDITOR="nano"
 export PATH=/home/user/bin:$PATH
 
 export PATH="$PATH:.bash_aliases"
-
+#export HISTTIMEFORMAT='%F %T '
+export HISTTIMEFORMAT='%F '
 
 
 
