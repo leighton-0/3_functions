@@ -26,6 +26,10 @@
 # Reconftw
     alias rec='./reconftw.sh -d ecosymbiosis.com -f
     
+# Docker
+    alias dvwa='docker run --rm -it -p 80:80 vulnerables/web-dvwa'
+    
+    
 #nDigital Ocean
     alias do1='ssh root@xxx.65.55.161'
     alias do2='ssh root@xxx.122.111.227'
@@ -34,6 +38,7 @@
 # VPN
     alias vpns='nordvpn status'
     alias vpnset='nordvpn settings'
+    alias vpnc='nordvpn connect'
     alias vpndc='nordvpn connect Double_VPN'
     alias vpno='s obfuscate on'
     alias vpnuk='nordvpn c 2195'
@@ -67,9 +72,9 @@
     alias iploc='./iploc.sh'
 
 
-alias grep='grep --color=auto'
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
+    alias grep='grep --color=auto'
+    alias egrep='egrep --color=auto'
+    alias fgrep='fgrep --color=auto'
 
 
 # History commands
