@@ -14,7 +14,7 @@
     alias rep='gedit ~/zz_reports'
     alias fun='gedit ~/zz_functions/functions'
 
-    alias t1='echo testing'
+    alias t2='echo testing'
 
     alias srr='. .bashrc && . .bash_aliases'
     alias jor='gedit /root/Documents/journal'
