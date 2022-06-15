@@ -19,7 +19,7 @@
     alias t9='echo testing'
 
     #alias srr='. .bashrc && . .bash_aliases'   #used on bash not zsh
-    alias srr='. .shrc && . .shell_aliases'
+    alias srr='. ~/.zshrc && . ~/.shell_aliases
     alias jor='gedit /root/Documents/journal'
 
     alias lmacc1='/usr/local/bin/./lmacc1.sh'
