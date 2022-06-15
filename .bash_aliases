@@ -9,14 +9,17 @@
     alias v1='grep VERSION /etc/os-release'
     alias v2='uname -a'
     alias upd='sudo apt update && sudo apt -y full-upgrade'
-    alias ba='gedit .bash_aliases'
-    alias bc='gedit .bashrc'
+    alias ba='gedit .shell_aliases'
+    alias bc='gedit .zshrc'
+    #alias ba='gedit .bash_aliases'             #used on bash not zsh
+    #alias bc='gedit .bashrc'                   #used on bash not zsh
     alias rep='gedit ~/zz_reports'
     alias fun='gedit ~/zz_functions/functions'
 
     alias t9='echo testing'
 
-    alias srr='. .bashrc && . .bash_aliases'
+    #alias srr='. .bashrc && . .bash_aliases'   #used on bash not zsh
+    alias srr='. .shrc && . .shell_aliases'
     alias jor='gedit /root/Documents/journal'
 
     alias lmacc1='/usr/local/bin/./lmacc1.sh'
