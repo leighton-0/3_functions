@@ -9,10 +9,10 @@
     alias v1='grep VERSION /etc/os-release'
     alias v2='uname -a'
     alias upd='sudo apt update && sudo apt -y full-upgrade'
-    alias ba='gedit .shell_aliases'
-    alias bc='gedit .zshrc'
-    #alias ba='gedit .bash_aliases'             #used on bash not zsh
-    #alias bc='gedit .bashrc'                   #used on bash not zsh
+    alias baz='gedit .shell_aliases'
+    alias bcz='gedit .zshrc'
+    alias ba='gedit .bash_aliases'             #used on bash not zsh
+    alias bc='gedit .bashrc'                   #used on bash not zsh
     alias rep='gedit ~/zz_reports'
     alias fun='gedit ~/zz_functions/functions'
 
