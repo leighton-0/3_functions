@@ -12,14 +12,18 @@
     alias baz='gedit .shell_aliases'
     alias bcz='gedit .zshrc'
     alias ba='gedit .bash_aliases'             #used on bash not zsh
+    alias bf='gedit ~/zz_functions/functions_1.sh
     alias bc='gedit .bashrc'                   #used on bash not zsh
     alias rep='gedit ~/zz_reports'
     alias fun='gedit ~/zz_functions/functions'
+    alias xm='snap run xmind'
+    alias sudo="sudo "
+    alias xxx='sudo youtube-dl -U'
 
     alias t9='echo testing'
 
-    #alias srr='. .bashrc && . .bash_aliases'   #used on bash not zsh
-    alias srr='. ~/.zshrc && . ~/.shell_aliases
+    alias srr='. .bashrc && . .bash_aliases'   #used on bash not zsh
+    #alias srr='. ~/.zshrc && . ~/.shell_aliases
     alias jor='gedit /root/Documents/journal'
 
     alias lmacc1='/usr/local/bin/./lmacc1.sh'
@@ -27,16 +31,22 @@
     #alias tor='sudo -u kali -H torbrowser-launcher'
     
 # Reconftw
-    alias rec='./reconftw.sh -d ecosymbiosis.com -f
+    alias recon='./reconftw.sh -d ecosymbiosis.com -f'
+    alias recon-f=
     
 # Docker
     alias dvwa='docker run --rm -it -p 80:80 vulnerables/web-dvwa'
     
+# Snap
+    alias srx='snap run xmind'
+    alias sry='snap run youtube-dl'
+    alias sl='snap list'
     
-#nDigital Ocean
+# Digital Ocean
     alias do1='ssh root@xxx.65.55.161'
-    alias do2='ssh root@xxx.122.111.227'
-    alias do3='ssh root@xxx.166.116.84'
+    alias dig='ssh root@134.122.111.227'
+    alias do3='ssh root@134.122.111.227'
+    alias do4='ssh root@134.122.111.227'
 
 # VPN
     alias vpns='nordvpn status'
