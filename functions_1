@@ -44,8 +44,35 @@ function fun_1()
 curl -k -s -o ~/zz_functions/functions_1 https://raw.githubusercontent.com/leighton-0/Aliases-Bashrc-Scripts-and-Functions/master/functions_1 | bash
 }
 =======================================
+# To load the function_2 file from github
+function fun_1()
+{
+curl -k -s -o ~/zz_functions/functions_1 https://raw.githubusercontent.com/leighton-0/Aliases-Bashrc-Scripts-and-Functions/master/functions_2 | bash
+}
+=======================================
+
+======================================
+function myip()
+{
+DIG=`which dig`
+   if [ $? -eq 0 ]
+    then
+     HOST="myip.opendns.com"
+     DNS="resolver1.opendns.com"
+     OPTIONS="+short +time=3 +tries=1"
+     RES=`$DIG $OPTIONS $HOST @$DNS 2> /dev/null`
+     if [ -z $RES ]
+       then
+        echo "NoInternet"
+       else
+        echo $RES
+     fi
+   fi
+}
+=======================================
 
 =======================================
 
+=======================================
 
-
+=======================================
