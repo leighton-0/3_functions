@@ -75,7 +75,11 @@ function test1()
 echo "hello world1"
 }
 =======================================
-
+# To run youtube-dl
+function ytdl()
+{
+snap run youtube-dl
+}
 =======================================
 
 =======================================
