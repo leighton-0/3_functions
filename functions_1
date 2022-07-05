@@ -86,7 +86,7 @@ snap run youtube-dl
 function wpwatcher()
 {
 wpwatcher --urls ~/zz_scripts/sites.txt
-      -e u --passwords ~/zz_scripts/list.txt
+      -e u --passwords ~/zz_scripts/wordlist.txt
  #    --wpscan_args "--force --stealthy --api-token <TOKEN>" \
  #    --api-token s3KWluzJG9MQYtsy413EWzWm419hAUmdhs8sUaAWPhQ
  #   --follow_redirect \
