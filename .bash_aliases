@@ -16,6 +16,7 @@
     alias bc='gedit .bashrc'                   #used on bash not zsh
     alias rep='gedit ~/zz_reports'
     alias fun='gedit ~/zz_functions/functions_1'
+    alias funcurl='curl -k -s -o ~/zz_functions/functions_1 https://raw.githubusercontent.com/leighton-0/Aliases-Bashrc-Scripts-and-Functions/master/functions_1 | bash'
     alias xm='snap run xmind'
     alias sudo="sudo "
     alias xxx='sudo youtube-dl -U'
