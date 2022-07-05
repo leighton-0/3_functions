@@ -82,4 +82,25 @@ snap run youtube-dl
 }
 =======================================
 
+#WP Watcher
+function wpwatcher()
+{
+wpwatcher --urls sites.txt \
+      --wpscan_args "--force --stealthy --api-token <TOKEN>" \
+      --follow_redirect \
+      --workers 5 \
+      --send --attach \
+      --email_to you@office.ca me@office.ca \
+      --api_limit_wait
+}
+
+=======================================
+
+
+=======================================
+
+
+=======================================
+
+
 =======================================
