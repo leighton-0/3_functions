@@ -82,7 +82,7 @@ snap run youtube-dl
 }
 =======================================
 
-#WP Watcher
+#WP Watcher ( awrapper for WP Scan)
 function wpwatcher()
 {
 wpwatcher --urls ~/zz_scripts/sites.txt
