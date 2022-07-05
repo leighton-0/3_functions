@@ -90,7 +90,7 @@ wpwatcher --urls sites.txt \
       --follow_redirect \
       --workers 5 \
       --send --attach \
-      --email_to you@office.ca me@office.ca \
+      --email_to linux@clucas.au l1@clucas.au \
       --api_limit_wait
 }
 
