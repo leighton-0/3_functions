@@ -15,7 +15,7 @@
     alias bf='gedit ~/zz_functions/functions_1.sh
     alias bc='gedit .bashrc'                   #used on bash not zsh
     alias rep='gedit ~/zz_reports'
-    alias fun='gedit ~/zz_functions/functions'
+    alias fun='gedit ~/zz_functions/functions_1'
     alias xm='snap run xmind'
     alias sudo="sudo "
     alias xxx='sudo youtube-dl -U'
