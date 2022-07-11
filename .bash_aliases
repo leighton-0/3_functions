@@ -20,6 +20,8 @@
     alias xm='snap run xmind'
     alias sudo="sudo "
     alias xxx='sudo youtube-dl -U'
+    alias po='popd'
+    alias pu='pushd'
 
     alias t9='echo testing'
 
