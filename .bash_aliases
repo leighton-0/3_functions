@@ -22,12 +22,13 @@
     alias xxx='sudo youtube-dl -U'
     alias po='popd'
     alias pu='pushd'
+    alias assd='cd /media/leighton/Andy_SSD/1_Linux'
 
     alias t9='echo testing'
 
     alias srr='. .bashrc && . .bash_aliases'   #used on bash not zsh
     alias srrz='. ~/.zshrc && . ~/.shell_aliases
-    alias jor='gedit /root/Documents/journal'
+    alias jor='gedit /media/leighton/Andy_SSD/1_Linux/journal'
 
     alias lmacc1='/usr/local/bin/./lmacc1.sh'
     alias lmacc0='/usr/local/bin/./lmacc0.sh'
