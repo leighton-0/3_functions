@@ -33,6 +33,13 @@ function extract() {
 }
 
 
+# nordvpn login --username leig@clucas.eu --password iloveanna
+# sleep 5
+# #nordvpn connect "#656"
+# #nordvpn -c -n "United States #3710"
+# nordvpn connect --group Dedicated_IP Germany
+# sleep 10
+# nordvpn status
 
 function mybanner()
 {
