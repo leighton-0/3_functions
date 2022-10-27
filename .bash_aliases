@@ -23,6 +23,7 @@
     alias po='popd'
     alias pu='pushd'
     alias assd='cd /media/leighton/Andy_SSD/1_Linux'
+    alias ttor='curl -x socks5h://localhost:9050 -s https://check.torproject.org/api/ip'    #test if TOR working
 
     alias t9='echo testing'
 
